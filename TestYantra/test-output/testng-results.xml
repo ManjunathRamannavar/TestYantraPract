@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Default test Started]]>
+    </line>
+    <line>
+      <![CDATA[Login page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[convertLeadtToOraganization Method Started]]>
+    </line>
+    <line>
+      <![CDATA[Raju_500 is selected]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC20 ] Hp_893 - Organization Information is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[convertLeadtToOraganization Method Passed]]>
+    </line>
+    <line>
+      <![CDATA[Login page is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87024" started-at="2020-12-20T15:21:27Z" finished-at="2020-12-20T15:22:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87024" started-at="2020-12-20T15:21:27Z" finished-at="2020-12-20T15:22:54Z">
+      <class name="com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest@3e6fa38a]" name="openBrowser" is-config="true" duration-ms="29471" started-at="2020-12-20T15:21:27Z" finished-at="2020-12-20T15:21:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="clickLogin()[pri:0, instance:com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest@3e6fa38a]" name="clickLogin" is-config="true" duration-ms="5872" started-at="2020-12-20T15:21:57Z" finished-at="2020-12-20T15:22:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method status="PASS" signature="convertLeadtToOraganization()[pri:0, instance:com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest@3e6fa38a]" name="convertLeadtToOraganization" duration-ms="44321" started-at="2020-12-20T15:22:02Z" finished-at="2020-12-20T15:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[convertLeadtToOraganization Method Started]]>
+            </line>
+            <line>
+              <![CDATA[Raju_500 is selected]]>
+            </line>
+            <line>
+              <![CDATA[[ ACC20 ] Hp_893 - Organization Information is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[convertLeadtToOraganization Method Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- convertLeadtToOraganization -->
+        <test-method status="PASS" signature="signOut()[pri:0, instance:com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest@3e6fa38a]" name="signOut" is-config="true" duration-ms="4274" started-at="2020-12-20T15:22:47Z" finished-at="2020-12-20T15:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest@3e6fa38a]" name="closeBrowser" is-config="true" duration-ms="2862" started-at="2020-12-20T15:22:51Z" finished-at="2020-12-20T15:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vtiger.testscript.ConvertLeadsToOrganizationBySelectingAllCheckBoxTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

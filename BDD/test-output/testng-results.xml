@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Mick_45 is selected]]>
+    </line>
+    <line>
+      <![CDATA[[ LEA65 ] Micky_1223984 Mick_45 - Lead Information is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Convert Lead : Mick_45 Micky_1223984 is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[[ ACC21 ] Dell_27142694 - Organization Information is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124254" started-at="2020-12-22T05:19:30Z" finished-at="2020-12-22T05:21:34Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerTest.Runner@271053e1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="124254" started-at="2020-12-22T05:19:30Z" finished-at="2020-12-22T05:21:34Z">
+      <class name="runnerTest.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerTest.Runner@271053e1]" name="setUpClass" is-config="true" duration-ms="2064" started-at="2020-12-22T10:49:30Z" finished-at="2020-12-22T10:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerTest.Runner@271053e1]" name="runScenario" duration-ms="117809" started-at="2020-12-22T10:49:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-22T10:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I want to Convert created lead to organization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Leads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Mick_45 is selected]]>
+            </line>
+            <line>
+              <![CDATA[[ LEA65 ] Micky_1223984 Mick_45 - Lead Information is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Convert Lead : Mick_45 Micky_1223984 is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[[ ACC21 ] Dell_27142694 - Organization Information is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerTest.Runner@271053e1]" name="tearDownClass" is-config="true" duration-ms="4271" started-at="2020-12-22T10:51:30Z" finished-at="2020-12-22T10:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerTest.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
